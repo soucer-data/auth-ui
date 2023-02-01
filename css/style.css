@@ -3,7 +3,7 @@ body{
 }
 
 .cmeio{
-    margin-top: -5%;
+    margin-top: 40px;
  text-align: center;
  display: flex;
  flex-direction: column;
@@ -91,7 +91,7 @@ color: #858585;
 }
 
 .new{
-    height: 27px;
+    height: 30px;
     width: 23%;
     background-color: #ffffff;
     color: rgb(83, 83, 83);
@@ -102,4 +102,107 @@ color: #858585;
 
 
 .new:hover{
+
     border:1px solid rgb(214, 214, 214)}
+
+label{
+    font-family: arial;
+    font-size: 13px;
+    color:#757575;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+    margin-bottom: -20px;
+
+}
+
+.chek{
+    background-color: darkblue;
+    height: 20px;
+    width: 45px;
+}
+
+.pergunta3{
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 10px;
+    color: #8b8b8b;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+}
+
+.container1{
+    background-color: #f3f3f4;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(121, 120, 120) 1px;
+}
+
+.div1{
+    margin-top: -15%;
+    width: 420px;
+    height: 250.89px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tit{
+    font-family: arial;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: #757575;
+}
+
+.txt{
+    margin-left:8px ;
+    margin-bottom: 30px;
+    color: #858585;
+}
+
+.fm{
+    margin-left: 10px;
+}
+
+.email{
+    margin-left: 2px;
+    padding-left: 10px;
+    height: 33px;
+    width: 378px;
+    border:solid rgb(230, 230, 230) 1px;
+    outline: 0 ;
+}
+
+.email:focus{
+    border: 1px solid #1ab394;
+}
+
+.btn{
+    height: 33px;
+    width: 390px;
+    margin-bottom: 15px;
+    background-color: #1ab394;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius:3px
+}
+
+.btn:hover{
+    background-color: #17987e;
+}
+
+.but{
+    margin-left: 2px;
+}
